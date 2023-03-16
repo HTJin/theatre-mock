@@ -1,0 +1,33 @@
+.main-display {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(270deg, #711324, #611420, #52141b, #361115, #190606, #000000);
+    background-size: 1200% 1200%;
+  height: 100%;
+  animation: AnimationName 20s ease infinite;
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  height: 35dvh;
+  background-color: #000000;
+}
+body {
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 4em;
+}
